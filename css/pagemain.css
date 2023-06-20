@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-main {
+    position: relative;
+    background-image: url(../img/background-main.jpg);
+    width: 1528px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* btn quay lai */
+
+/* .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 54px;
+    left: 54px;
+    z-index: 100;
+}
+
+.btn p {
+    font-size: 18px;
+    margin-left: 11px;
+    font-weight: 700;
+}
+
+.btn .arrow-left {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: relative;
+    width: 43.2px;
+    height: 43.2px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 1), rgba(255, 168, 0, 1));
+}
+
+.btn .arrow-left i {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    top: 50%;
+    left: 50%;
+    margin-left: -11px;
+    margin-top: -11px;
+    cursor: pointer;
+} */
+
+/* head */
+.head {
+    transition: 500ms;
+}
+
+/* form*/
+.form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 58%;
+}
+
+.form h1 {
+    width: 65%;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form .logo-form {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .logo-form img {
+    height: 100px;
+    width: 100px;
+}
+
+.form .text {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+.form .text.two {
+    margin-top: 0px;
+}
+
+/* form login */
+.form-login {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    height: max-content;
+}
+
+/* .forgot-pass */
+.forgot-pass {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.forgot-pass input {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-pass a {
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.forgot span {
+    font-size: 18px;
+}
+
+/* .btn-form  */
+.btn{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn .or{
+    color: rgba(51, 51, 51, 0.3);
+}
+.btn-form {
+    width: 400px;
+    border: 1px solid transparent;
+    background: transparent;
+}
+.btn-form a{
+    border-radius: 12px;
+    padding: 20px 50px;
+    background: linear-gradient(90deg, #FF0000 0%, #FFA800 100%);
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.btn-form a:hover {
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 500ms;
+    cursor: pointer;
+
+}
+
+/* login-method */
+.method-form {
+    height: 40px;
+    width: 118px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.method-form {
+    margin-top: 15px;
+}
+
+.method-form .google,
+.method-form .facebook {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* .footer-form */
+.footer-form {
+    margin-top: 150px;
+}
+
+.footer-form p {
+    text-align: center;
+    color: rgba(51, 51, 51, 0.3);
+}
